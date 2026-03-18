@@ -103,7 +103,7 @@ Main Road, Vadodara</pre>
 if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
   
   const cursor = document.querySelector('.custom-cursor');
-  const hoverSelector = 'a, button, .btn, .button, .swiper-pagination-bullet';
+  const hoverSelector = 'a, button, .btn, .button, .swiper-pagination-bullet, summary';
 
   // 1. Move the cursor with the mouse
   document.addEventListener('mousemove', (e) => {
