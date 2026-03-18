@@ -23,6 +23,9 @@
 
 @media (max-width: 991.98px) {
 /* Tablet Portrait */
+  .hero-slide>.row{
+    flex-direction: column-reverse;
+  }
   .hero-slide {
     min-height: auto;
   }

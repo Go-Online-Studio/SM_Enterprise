@@ -396,7 +396,7 @@ button {
 }
 
 .hero-row {
-  width: 100%;
+  flex: 1;
   min-height: inherit;
   align-items: center;
 }
