@@ -65,13 +65,13 @@ Main Road, Vadodara</pre>
                   </a>
                 </li>
                 <li>
-                  <a href="tel:+916354710794" class="footerLinks">
-                    <iconify-icon icon="mdi:phone-outline"></iconify-icon> +91 63547 10794</a>
+                  <a href="tel:+916355226244" class="footerLinks">
+                    <iconify-icon icon="mdi:phone-outline"></iconify-icon> +91 63552 26244</a>
                 </li>
   
                 <li>
-                  <a class="emailAnchor footerLinks" href="mailto:contact@shriiitrackingsolutions.com">
-                    <iconify-icon icon="mdi:email-outline"></iconify-icon> contact@shriiitrackingsolutions.com</a>
+                  <a class="emailAnchor footerLinks" href="mailto:sm.enterprise@moveonline.in">
+                    <iconify-icon icon="mdi:email-outline"></iconify-icon> sm.enterprise@moveonline.in</a>
                 </li>
               </ul>
               

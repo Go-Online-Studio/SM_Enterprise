@@ -1054,4 +1054,106 @@ address{
 
 
 
+/* ========================================
+   CONTACT PAGE CSS
+   ======================================== */
+
+.contact-page-section {
+  padding-top: calc(var(--nav-height) + clamp(3rem, 6vw, 5rem));
+  min-height: 100vh;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  margin-top: 3.5rem;
+}
+
+@media (min-width: 992px) {
+  .contact-grid {
+    grid-template-columns: 1fr 1.3fr;
+    gap: 5rem;
+  }
+}
+
+.text-muted
+ {
+    color: var(--text-muted) !important;
+}
+
+/* Contact Info Side */
+.info-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.info-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  background: linear-gradient(145deg, rgba(167, 131, 252, 0.1), rgba(255, 255, 255, 0.02));
+  border: 1px solid rgba(167, 131, 252, 0.2);
+  color: var(--accent-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.75rem;
+  flex-shrink: 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2), inset 0 0 10px rgba(167, 131, 252, 0.05);
+}
+
+.hover-white {
+  transition: color 0.3s ease;
+}
+
+.hover-white:hover {
+  color: #fff !important;
+}
+
+/* Form Styles */
+.contact-form-side {
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+}
+
+.form-label {
+  color: var(--text-light);
+  font-size: var(--type-sm);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.custom-input {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-md);
+  padding: 0.85rem 1.15rem;
+  color: var(--text-light);
+  font-family: inherit;
+  font-size: var(--type-sm);
+  transition: all 0.3s ease;
+}
+
+.custom-input::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.custom-input:focus {
+  outline: none;
+  border-color: var(--accent-primary);
+  box-shadow: 0 0 0 4px rgba(167, 131, 252, 0.15);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+/* Fix option coloring on dark themes */
+select.custom-input option {
+  background-color: var(--bg-panel);
+  color: var(--text-light);
+}
+
+
+
 
