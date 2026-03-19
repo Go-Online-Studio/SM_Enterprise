@@ -32,13 +32,9 @@ document.getElementById("footer").innerHTML = `
                 <li>
                   <a class="footerLinks" href="index.html">
                     Home </a>
-                </li>
-                <li>
-                  <a class="footerLinks" href="services.html">
-                    Services</a>
                 </li>  
                 <li>
-                  <a class="footerLinks" href="career.html">
+                  <a class="footerLinks" href="careers.html">
                     Careers</a>
                 </li>
                 <li>
@@ -51,13 +47,21 @@ document.getElementById("footer").innerHTML = `
                 </li>
               </ul>
             </div>
+            <div class="col-sm-6 col-lg-auto mb-4 mb-md-0 exploreLinks1">
+              <h5 class="fourthH ">Our Services</h5>
+              <ul> 
+                <li><a href="seo-services.html" class="footerLinks"> SEO Services</a></li>
+                <li><a href="gmb-services.html" class="footerLinks"> GMB Services</a></li>
+                <li><a href="graphic-design.html" class="footerLinks"> Graphic Design</a></li>
+                <li><a href="web-development.html" class="footerLinks"> Web Development</a></li>
+              </ul>
+            </div>
             <div class="col-md-6 col-lg-auto mb-4 mb-md-0">
               <h5 class="fourthH ">Locate Us</h5>
               <ul class="contact-info">
                 <li>
                   <a class="locationLink footerLinks" target="_blank" href="https://maps.app.goo.gl/aGGQHHdmteBJ3QyB9">
                     <iconify-icon icon="mi:location"></iconify-icon>
-                    <A1-TF-25>
 <pre class="mb-0">
 TF-A1-22, Akshar Pavilion Mall,
 Near Priya Cinema, Vasna Bhyali

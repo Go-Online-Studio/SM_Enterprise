@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
       </div>
       <div class="offcanvas-body">
         <ul class="navbar-nav gap-2">
-          <li class="nav-item"><a class="nav-link" href="index.html" data-bs-dismiss="offcanvas">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
           <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Services
@@ -61,10 +61,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 <li><a class="dropdown-item" href="web-development.html">Web Development</a></li>
               </ul>
             </li>
-          <li class="nav-item"><a class="nav-link" href="careers.html" data-bs-dismiss="offcanvas">Careers</a></li>
-          <li class="nav-item"><a class="nav-link" href="about.html" data-bs-dismiss="offcanvas">About Us</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.html" data-bs-dismiss="offcanvas">Contact Us</a></li>
-          <li class="nav-item mt-3"><a class="btn btn-light w-100" href="#contact" data-bs-dismiss="offcanvas">Book Consultation</a></li>
+          <li class="nav-item"><a class="nav-link" href="careers.html">Careers</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+          <li class="nav-item mt-3"><a class="btn btn-light w-100" href="contact.html#contactFormSection">Book Consultation</a></li>
         </ul>
       </div>`;
 

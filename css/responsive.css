@@ -120,7 +120,7 @@
 
   .footer .exploreLinks ul li,
   .footer .exploreLinks1 ul li {
-    text-align: left;
+    text-align: center;
   }
   .footer-brand {
     display: table !important;
@@ -131,7 +131,6 @@
   }
  
   .footer .exploreLinks1 ul {
-    max-width: 352px;
     margin: auto;
   }
   .footer .exploreLinks ul {
