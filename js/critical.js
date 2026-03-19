@@ -23,7 +23,17 @@ document.addEventListener("DOMContentLoaded", function () {
         <div class="collapse navbar-collapse" id="desktopNav">
           <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
             <li class="nav-item"><a class="nav-link" href="index.html" aria-current="page">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="seo-services.html">SEO Services</a></li>
+                <li><a class="dropdown-item" href="gmb-services.html">GMB Services</a></li>
+                <li><a class="dropdown-item" href="graphic-design.html">Graphic Design</a></li>
+                <li><a class="dropdown-item" href="web-development.html">Web Development</a></li>
+              </ul>
+            </li>
             <li class="nav-item"><a class="nav-link" href="careers.html">Careers</a></li>
             <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
             <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
@@ -40,7 +50,17 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="offcanvas-body">
         <ul class="navbar-nav gap-2">
           <li class="nav-item"><a class="nav-link" href="index.html" data-bs-dismiss="offcanvas">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="services.html" data-bs-dismiss="offcanvas">Services</a></li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="seo-services.html">SEO Services</a></li>
+                <li><a class="dropdown-item" href="gmb-services.html">GMB Services</a></li>
+                <li><a class="dropdown-item" href="graphic-design.html">Graphic Design</a></li>
+                <li><a class="dropdown-item" href="web-development.html">Web Development</a></li>
+              </ul>
+            </li>
           <li class="nav-item"><a class="nav-link" href="careers.html" data-bs-dismiss="offcanvas">Careers</a></li>
           <li class="nav-item"><a class="nav-link" href="about.html" data-bs-dismiss="offcanvas">About Us</a></li>
           <li class="nav-item"><a class="nav-link" href="contact.html" data-bs-dismiss="offcanvas">Contact Us</a></li>

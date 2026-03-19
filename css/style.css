@@ -272,6 +272,20 @@ button {
   color: var(--text-light);
 }
 
+.dropdown-menu {
+  background-color: var(--bg-panel-2);
+  border: 1px solid var(--card-border);
+}
+
+.dropdown-item {
+  color: var(--text-light);
+}
+
+.dropdown-item:hover {
+  background-color: var(--accent-primary);
+  color: var(--bg-dark);
+}
+
 .navbar-toggler:focus {
   box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.15);
 }
