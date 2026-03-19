@@ -6,7 +6,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   "use strict";
 
-  document.getElementById("footer").innerHTML = `
+document.getElementById("footer").innerHTML = `
 <div class="container">
         <div class="footWrap defaultPadding">
           <div class="row">
@@ -129,11 +129,34 @@ if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
 
   // ===== CONFIGURATION =====
   const CONFIG = {
-    whatsappNumber: "919898011309",
+    whatsappNumber: "916355226244",
     animationDuration: 800,
     debounceDelay: 250,
     counterDuration: 2000,
-  };
+  }; 
+
+// WhatsApp URL Adjuster (Device-based Detection)
+(function () {
+  const mobileLink = `https://api.whatsapp.com/send?phone=${CONFIG.whatsappNumber}`;
+  const desktopLink = `https://web.whatsapp.com/send?phone=${CONFIG.whatsappNumber}`;
+
+  function isMobileDevice() {
+    return /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+  }
+
+  function updateWhatsAppLink() {
+    const isMobile = isMobileDevice();
+    const targetLink = isMobile ? mobileLink : desktopLink;
+
+    document.querySelectorAll(".set-url-target").forEach(el => {
+      el.setAttribute("href", targetLink);
+    });
+  }
+
+  window.addEventListener("resize", updateWhatsAppLink);
+  window.addEventListener("load", updateWhatsAppLink);
+})();
+
 
   // ===== INITIALIZE AOS =====
   if (typeof AOS !== "undefined") {

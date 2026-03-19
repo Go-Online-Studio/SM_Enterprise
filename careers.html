@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Careers | SM Enterprise – Join Our Team</title>
+  <link rel="icon" href="images/SM_Enterprise_Fevicon.png" type="image/png" fetchpriority="low">
+  <meta name="description" content="Explore exciting career opportunities in digital marketing, graphic design, and web development at SM Enterprise in Vadodara." />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#050505" />
+  <meta property="og:title" content="Careers | SM Enterprise" />
+  <meta property="og:description" content="Join the SM Enterprise team! We're hiring digital marketers, designers, and developers in Vadodara." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  
+  <link rel="preload" as="style" href="css/style.css" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" as="style" href="css/responsive.css" onload="this.onload=null;this.rel='stylesheet'">
+
+  <script>
+    document.documentElement.classList.remove('no-js');
+    document.documentElement.classList.add('js');
+  </script>
+
+  <style>
+    /* ===== CAREERS SPECIFIC CSS ===== */
+    /* You can move this to your style.css and responsive.css files */
+    .careers-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 1.5rem;
+      margin-top: 3rem;
+    }
+
+    .job-card {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      padding: 1.75rem 1.5rem;
+      text-align: left;
+    }
+
+    .job-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 1rem;
+    }
+
+    .job-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      background: linear-gradient(145deg, rgba(167, 131, 252, 0.1), rgba(255, 255, 255, 0.02));
+      border: 1px solid rgba(167, 131, 252, 0.2);
+      color: var(--accent-primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.6rem;
+    }
+
+    .job-badge {
+      padding: 0.35rem 0.75rem;
+      background: rgba(167, 131, 252, 0.1);
+      color: #e4d8fd;
+      border: 1px solid rgba(167, 131, 252, 0.25);
+      border-radius: 999px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+
+    .job-badge.internship {
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text-muted);
+      border-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .job-card .h3 {
+      font-size: clamp(1.1rem, 1rem + 0.5vw, 1.35rem);
+      margin-bottom: 0.75rem;
+      color: var(--text-light);
+    }
+
+    .job-card p {
+      color: var(--text-muted);
+      font-size: var(--type-xs);
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+      flex-grow: 1;
+    }
+
+    .job-card-footer {
+      margin-top: auto;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--card-border);
+    }
+
+    .job-card-footer .btn {
+      width: 100%;
+      display: inline-flex;
+      justify-content: center;
+      gap: 0.4rem;
+    }
+
+    @media (max-width: 1199.98px) {
+      .careers-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 767.98px) {
+      .careers-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header>
+    <nav id="mainNavbar" class="navbar navbar-expand-lg fixed-top" aria-label="Primary navigation"></nav>
+    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel"></div>
+  </header>
+
+  <script src="js/critical.js"></script>
+
+  <main id="main-content">
+
+    <section class="page-hero tone-deep">
+      <div class="page-hero-grain" aria-hidden="true"></div>
+      <div class="page-hero-circle page-hero-circle--left" aria-hidden="true"></div>
+      <div class="page-hero-circle page-hero-circle--right" aria-hidden="true"></div>
+      <div class="container-xl position-relative z-1 text-center">
+        <p class="eyebrow" data-aos="fade-down">Join Our Team</p>
+        <h1 data-aos="fade-up" data-aos-delay="100">Build Your Career With <span class="accent-word">SM Enterprise</span></h1>
+        <p class="page-hero-sub" data-aos="fade-up" data-aos-delay="200">Explore exciting job and internship opportunities in digital marketing, graphic design, and modern web development in Vadodara.</p>
+      </div>
+    </section>
+
+    <section class="section tone-soft" id="open-positions">
+      <div class="container-xl">
+        <div class="section-heading text-center mx-auto" data-aos="fade-up">
+          <p class="eyebrow">Current Openings</p>
+          <h2>Find Your <span class="accent-word">Perfect Role</span></h2>
+          <p>We are always on the lookout for creative minds and technical problem-solvers to join our growing agency.</p>
+        </div>
+
+        <div class="careers-grid">
+          
+          <article class="service-card job-card" data-aos="fade-up" data-aos-delay="40">
+            <div class="job-card-header">
+              <div class="job-icon"><iconify-icon icon="mdi:bullhorn-outline"></iconify-icon></div>
+              <span class="job-badge">Full Time</span>
+            </div>
+            <h3 class="h3">Digital Marketing Manager</h3>
+            <p>We are seeking an experienced Digital Marketing Manager to lead our campaigns. You will be responsible for developing marketing strategies, executing high-impact social media accounts, driving engagement, and ensuring cohesive brand alignment across all digital platforms.</p>
+            <div class="job-card-footer">
+              <a href="mailto:sm.enterprise@moveonline.in?subject=Application for Digital Marketing Manager" class="btn btn-ghost">Apply Now <iconify-icon icon="mdi:arrow-right"></iconify-icon></a>
+            </div>
+          </article>
+
+          <article class="service-card job-card" data-aos="fade-up" data-aos-delay="80">
+            <div class="job-card-header">
+              <div class="job-icon"><iconify-icon icon="mdi:cellphone-link"></iconify-icon></div>
+              <span class="job-badge">Full Time</span>
+            </div>
+            <h3 class="h3">Social Media Manager</h3>
+            <p>Looking for a dynamic Social Media Manager to oversee and elevate our clients' online presence. Your role involves crafting creative content strategies, managing daily posts, maintaining a consistent brand voice, and accelerating engagement to meet performance goals.</p>
+            <div class="job-card-footer">
+              <a href="mailto:sm.enterprise@moveonline.in?subject=Application for Social Media Manager" class="btn btn-ghost">Apply Now <iconify-icon icon="mdi:arrow-right"></iconify-icon></a>
+            </div>
+          </article>
+
+          <article class="service-card job-card" data-aos="fade-up" data-aos-delay="120">
+            <div class="job-card-header">
+              <div class="job-icon"><iconify-icon icon="mdi:palette-swatch-outline"></iconify-icon></div>
+              <span class="job-badge">Full Time</span>
+            </div>
+            <h3 class="h3">Graphic Designer</h3>
+            <p>Join our creative team as a talented Graphic Designer! You will be tasked with designing eye-catching visuals, developing compelling graphics for print and digital interfaces, and bringing our ideas to life while maintaining strict attention to detail and brand aesthetics.</p>
+            <div class="job-card-footer">
+              <a href="mailto:sm.enterprise@moveonline.in?subject=Application for Graphic Designer" class="btn btn-ghost">Apply Now <iconify-icon icon="mdi:arrow-right"></iconify-icon></a>
+            </div>
+          </article>
+
+          <article class="service-card job-card" data-aos="fade-up" data-aos-delay="160">
+            <div class="job-card-header">
+              <div class="job-icon"><iconify-icon icon="mdi:code-braces"></iconify-icon></div>
+              <span class="job-badge">Full Time</span>
+            </div>
+            <h3 class="h3">Frontend Web Developer</h3>
+            <p>We are seeking an experienced Web Developer to engineer seamless, high-performance interfaces. You will collaborate with the team to design, code, and maintain robust websites, bringing strong expertise in JavaScript, React, and modern CSS frameworks like Bootstrap.</p>
+            <div class="job-card-footer">
+              <a href="mailto:sm.enterprise@moveonline.in?subject=Application for Web Developer" class="btn btn-ghost">Apply Now <iconify-icon icon="mdi:arrow-right"></iconify-icon></a>
+            </div>
+          </article>
+
+          <article class="service-card job-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="job-card-header">
+              <div class="job-icon"><iconify-icon icon="mdi:bullhorn-outline"></iconify-icon></div>
+              <span class="job-badge internship">Internship</span>
+            </div>
+            <h3 class="h3">Digital Marketing Intern</h3>
+            <p>Join our team as a Digital Marketing Intern! Assist in managing social media platforms, scheduling original text and video content, and engaging with audiences. This is a great opportunity to learn real-world marketing objectives and build a consistent brand image.</p>
+            <div class="job-card-footer">
+              <a href="mailto:sm.enterprise@moveonline.in?subject=Application for Digital Marketing Intern" class="btn btn-ghost">Apply Now <iconify-icon icon="mdi:arrow-right"></iconify-icon></a>
+            </div>
+          </article>
+
+          <article class="service-card job-card" data-aos="fade-up" data-aos-delay="240">
+            <div class="job-card-header">
+              <div class="job-icon"><iconify-icon icon="mdi:cellphone-link"></iconify-icon></div>
+              <span class="job-badge internship">Internship</span>
+            </div>
+            <h3 class="h3">Social Media Intern</h3>
+            <p>We are excited to offer an opportunity for a Social Media Intern to join our ranks. In this role, you will assist in brainstorming engaging content, managing posts, and interacting directly with target audiences to enhance online presence in a dynamic way.</p>
+            <div class="job-card-footer">
+              <a href="mailto:sm.enterprise@moveonline.in?subject=Application for Social Media Intern" class="btn btn-ghost">Apply Now <iconify-icon icon="mdi:arrow-right"></iconify-icon></a>
+            </div>
+          </article>
+
+          <article class="service-card job-card" data-aos="fade-up" data-aos-delay="280">
+            <div class="job-card-header">
+              <div class="job-icon"><iconify-icon icon="mdi:palette-swatch-outline"></iconify-icon></div>
+              <span class="job-badge internship">Internship</span>
+            </div>
+            <h3 class="h3">Graphic Design Intern</h3>
+            <p>We are offering an exciting opportunity for a Graphic Design Intern. Assist in creating stunning visuals for digital and print media. This is a perfect chance to gain hands-on experience, sharpen your design skills, and learn professional brand identity standards.</p>
+            <div class="job-card-footer">
+              <a href="mailto:sm.enterprise@moveonline.in?subject=Application for Graphic Design Intern" class="btn btn-ghost">Apply Now <iconify-icon icon="mdi:arrow-right"></iconify-icon></a>
+            </div>
+          </article>
+
+          <article class="service-card job-card" data-aos="fade-up" data-aos-delay="320">
+            <div class="job-card-header">
+              <div class="job-icon"><iconify-icon icon="mdi:code-braces"></iconify-icon></div>
+              <span class="job-badge internship">Internship</span>
+            </div>
+            <h3 class="h3">Web Developer Intern</h3>
+            <p>Looking for a motivated Web Developer Intern! Assist in developing user-friendly interfaces and supporting web-based solutions. Gain hands-on experience turning designs into reality using tools like HTML, CSS, JavaScript, Swiper, and AOS animations.</p>
+            <div class="job-card-footer">
+              <a href="mailto:sm.enterprise@moveonline.in?subject=Application for Web Developer Intern" class="btn btn-ghost">Apply Now <iconify-icon icon="mdi:arrow-right"></iconify-icon></a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section tone-deep cta-section">
+      <div class="cta-bg-circle cta-bg-circle--1" aria-hidden="true"></div>
+      <div class="cta-bg-circle cta-bg-circle--2" aria-hidden="true"></div>
+      <div class="container-xl text-center position-relative z-1">
+        <div class="section-heading mx-auto text-center" data-aos="fade-up">
+          <p class="eyebrow">Can't find the right fit?</p>
+          <h2>Send Us Your <span class="accent-word">Resume</span> Anyway</h2>
+          <p>We're always looking for talented individuals. Drop us your portfolio and CV, and we'll reach out when a matching role opens up.</p>
+        </div>
+        <div class="hero-cta-wrap justify-content-center" data-aos="fade-up" data-aos-delay="120">
+          <a href="mailto:sm.enterprise@moveonline.in" class="btn btn-light">Email Your Resume</a>
+          <a href="contact.html" class="btn btn-ghost">Contact Us</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <a href="#" class="back-to-top" id="backToTop">
+      <iconify-icon icon="mdi:chevron-up"></iconify-icon>
+  </a>
+  <div class="custom-cursor"></div>
+
+  <footer id="footer" class="footer"></footer>
+
+  <noscript>
+    <style>
+      [data-aos] {
+        opacity: 1 !important;
+        transform: none !important;
+      }
+    </style>
+  </noscript>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+  <script src="js/script.js"></script>
+
+  <script>
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    // Utilize the existing 3D card tilt micro-interactions 
+    // already defined in your about/index pages for the new job cards!
+    if (!reduceMotion) {
+      const reactiveCards = document.querySelectorAll('.service-card');
+      reactiveCards.forEach((card) => {
+        card.addEventListener('pointermove', (event) => {
+          const rect = card.getBoundingClientRect();
+          const px = (event.clientX - rect.left) / rect.width - 0.5;
+          const py = (event.clientY - rect.top) / rect.height - 0.5;
+          card.style.transform = `rotateX(${(-py * 2.4).toFixed(2)}deg) rotateY(${(px * 3.2).toFixed(2)}deg) translateY(-4px)`;
+        });
+        card.addEventListener('pointerleave', () => {
+          card.style.transform = '';
+        });
+      });
+    }
+  </script>
+</body>
+</html>

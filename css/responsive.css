@@ -19,6 +19,19 @@
   .results-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
+
+  /* Contact & About Page */
+  .contact-info-cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .mvv-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .story-timeline {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -49,7 +62,6 @@
 
   .services-grid,
   .process-grid,
-  .portfolio-grid,
   .clients-grid {
     grid-template-columns: 1fr;
   }
@@ -62,11 +74,25 @@
     row-gap: 30px;
   }
 
+  /* Contact & About Page */
+  .mvv-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-intro-layout,
+  .about-skills-layout,
+  .about-why-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .about-skills-layout .about-skills-image {
+    order: -1;
+  }
 }
 
 @media (max-width: 767.98px) {
  /* Mobile Landscape */
-  .about-meta-grid{
+  .about-meta-grid,.portfolio-grid{
     grid-template-columns: 1fr;
   }
 
@@ -136,6 +162,19 @@
 .footer .socials {
   justify-content: center;
 }
+
+  /* Contact & About Page */
+  .contact-info-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .story-timeline {
+    grid-template-columns: 1fr;
+  }
+
+  .about-stat-badges {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 575.98px) {
