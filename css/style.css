@@ -293,6 +293,7 @@ section{
 
 .dropdown-item:focus, .dropdown-item:hover {
   background-color: var(--accent-primary);
+  /* background: url('../images/Particles.gif') center/cover no-repeat; */
   color: var(--bg-dark);
 }
 
